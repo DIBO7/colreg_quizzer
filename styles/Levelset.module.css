@@ -1,0 +1,119 @@
+.popup{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .6);
+	z-index: 10; /*so it can show up above all others*/
+	transition: .3s;
+	transform: scale(.05);
+	pointer-events: all;
+}
+
+.popup.opened{
+	transform: scale(1);
+}
+
+.overlay{
+	
+}
+
+.display{
+	margin: 40vh auto 0;
+	transform: translateY(-50%);
+	width: 260px;
+	background: white;
+	box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, .5);
+}
+
+.display h2{
+	background: var(--main-blue);
+	margin: 0;
+	padding: 10px 10px;
+	font-size: .9rem;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+}
+
+.selectors{
+	display: flex;
+	flex-direction: column;
+	/*max-height: 50vh; This might not be necessary after all	*/
+	padding: 10px 0;
+}
+
+.selectors button{
+	background: none;
+	border: none;
+	outline: none;
+	text-align: left;
+	padding: 10px 0 10px 30px;
+	font-size: .9rem;
+	cursor: pointer;
+	position: relative;
+	transition: .5s;
+}
+
+.selectors button span{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background: var(--main-blue);
+	transition: .5s;
+}
+
+/*.selectors button span.left{*/
+.left{
+	left: 0;
+}
+
+/*.selectors button span.right{*/
+.right{
+	right: 0;
+}
+
+/*.selectors button.selected{*/
+.selected{
+	color: white;
+	z-index: 3;
+}
+
+/*.selectors button.selected span{*/
+.selected span{
+	width: 50%;
+	z-index: -1;
+}
+
+.action{
+	display: flex;
+	justify-content: space-around;
+	transition: .5s;
+}
+
+.action button{
+	border: none;
+	outline: none;
+	box-shadow: 0 -1px 2px 1px rgba(0, 0, 0, .5);
+	padding: 15px 0 10px;
+	font-size: .8rem;
+	letter-spacing: .16rem;
+	cursor: pointer;
+	transition: .5s;
+}
+
+/*.action button.enlarge{*/
+.enlarge{
+	width: 60%;
+	background: var(--main-blue);
+	color: white;
+	text-transform: uppercase;
+}
+
+/*.action button.shrink{*/
+.shrink{
+	width: 40%;
+	background-color: white;
+	color: red;
+}

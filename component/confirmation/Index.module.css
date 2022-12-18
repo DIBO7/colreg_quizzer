@@ -1,0 +1,29 @@
+.display p{
+	color: var(--heavy-blue);
+	font-weight: 700;
+	font-size: 1rem;
+	padding: 20px 10px;
+	letter-spacing: .2rem;
+	text-align: justify;
+}
+
+.decide{
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.decide button{
+	padding: 8px 0;
+	width: 40%;
+	background: var(--bright-blue);
+	color: white;
+	border: none;
+	cursor: pointer;
+	transition: .4s;
+}
+
+.decide button:hover, .decide button:focus{
+	transform: scaleX(1.3);
+}

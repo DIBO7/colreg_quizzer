@@ -1,0 +1,432 @@
+{
+	"question": "The rules concerning lights shall be complied with _____",
+	"answer": "from sunset to sunrise",
+	"options": [
+			"from sunrise to sunset",
+			"as long as the ship is underway",
+			"if the ship is longer than 25 metres",
+			"in restricted visibility only"
+		],
+	"explanation": "see rule 20b",
+	"chapter": 3
+},{
+	"question": "The rule concerning shapes shall be complied with _____",
+	"answer": "by day",
+	"options": [
+			"at night",
+			"at all times",
+			"when the ship is underway",
+			"when she is on anchor",
+			"when she is aground",
+			"when she is in distress"
+		],
+	"explanation": "see rule 20d",
+	"chapter": 3
+},{
+	"question": "What is the color of portside sidelight?",
+	"answer": "red",
+	"options": [
+			"green",
+			"white",
+			"red or yellow light",
+			"red or green light",
+			"green or yellow light"
+		],
+	"explanation": "see rule 21b",
+	"chapter": 3
+},{
+	"question": "Flashing lights are lights flashing at regular intervals at a frequency of X flashes per minute. What is X?",
+	"answer": "120 or more",
+	"options": [
+			"150 or more",
+			"60 or more",
+			"80 or more",
+			"140 or more"
+		],
+	"explanation": "see rule 21f",
+	"chapter": 3
+},{
+	"question": "The sidelights if a vessel may be combined in one lantern carried on the fore-and-aft centreline of the vessel.",
+	"answer": "this is true for vessels less than 20 metres in length",
+	"options": [
+			"this is true",
+			"this is false",
+			"this is false for vessels less than 20 metres in length",
+			"this is true for vessels larger than 200 metres",
+			"this is true for vessels smaller than 200 metres"
+		],
+	"explanation": "see rule 21b",
+	"chapter": 3
+},//Day 4 - 8 new entry 5 of which are for the third chapter
+
+{
+	"question": "The masthead light shows an unbroken white light over an arc of the horizon of X degrees. What is X?",
+	"answer": "225",
+	"options": [
+			"112.5",
+			"135",
+			"360",
+			"120",
+			"67"
+		],
+	"explanation": "see rule 21a",
+	"chapter": 3
+},{
+	"question": "The sidelights are either red or green lights showing an unbroken light over an arc of the horizon of X degrees. What is X?",
+	"answer": "112.5",
+	"options": [
+			"225",
+			"135",
+			"360",
+			"120",
+			"67"
+		],
+	"explanation": "see rule 21b",
+	"chapter": 3
+},{
+	"question": "The masthead light is fixed to be seen from right ahead of X degrees abaft the beam on either side of the vessel. What is X?",
+	"answer": "22.5",
+	"options": [
+			"12.5",
+			"67.5",
+			"13.5",
+			"12.0",
+			"42.5"
+		],
+	"explanation": "see rule 21a",
+	"chapter": 3
+},{
+	"question": "The sternlight is a white placed at/near the stern showing an unroken light over an arc of the horizon of X degrees. What is X?",
+	"answer": "135",
+	"options": [
+			"225",
+			"112.5",
+			"360",
+			"120",
+			"67"
+		],
+	"explanation": "see rule 21c",
+	"chapter": 3
+},{
+	"question": "The sternlight is fixed to be seen X degrees from the right aft on each side of the vessel. What is X?",
+	"answer": "67.5",
+	"options": [
+			"12.5",
+			"22.5",
+			"13.5",
+			"12.0",
+			"42.5"
+		],
+	"explanation": "see rule 21c",
+	"chapter": 3
+},{
+	"question": "Lights showing an unbroken light over an arc of the horizon of 360 degrees are referred to as?",
+	"answer": "all-round lights",
+	"options": [
+			"round lights",
+			"circular lights",
+			"oval lights",
+			"over-head lights"
+		],
+	"explanation": "see rule 21e",
+	"chapter": 3
+},{
+	"question": "What is the minimun visibility range of a white all-round light on towed objects or partly submerged vessels?",
+	"answer": "3 miles",
+	"options": [
+			"3 kilometres",
+			"6 miles",
+			"6 kilometres",
+			"2 miles",
+			"2 kilometres"
+		],
+	"explanation": "see rule 22d",
+	"chapter": 3
+},{
+	"question": "You are on a vessel engaged in fishing is 25 metres in length. What would be the minimun visibility range of the towing light, the sternlight, the sidelight, the masthead light and the all-round light respectively?",
+	"answer": "2, 2, 2, 5, 2 miles",
+	"options": [
+			"2, 2, 2, 3, 2 miles",
+			"3, 3, 1, 5, 5 miles",
+			"3, 3, 3, 6, 3 miles",
+			"2, 2, 1, 2, 2 miles"
+		],
+	"explanation": "see rule 22b",
+	"chapter": 3
+},{
+	"question": "You find yourself on a tanker. The visiility range of masthead light, sidelights, sternlight, towing light and all-round light on the tanker are 7, 5, 3, 3, 6 miles respectively. If the vessel is abiding by the collision regulation, which of the following statements is true?",
+	"answer": "the tanker is atleast 50 metres long",
+	"options": [
+			"the tanker is atleast 50 metres wide",
+			"the tanker is atleast 15 years old",
+			"the tanker is atmost 250 metres long",
+			"the tanker is atleast 25 metres long"
+		],
+	"explanation": "write doen this question and compare to rule 22a to see the relationship",
+	"chapter": 3
+},{
+	"question": "The visibility range of the masthead light, the sidelights, sternlight, towing light and all-round light of a Ro-Ro ship are 6, 1, 7, 8, 14 miles respectively. If the ship is abiding by the collision regulation, Which of the following statements is true?",
+	"answer": "The ship is atleast 12 metres long",
+	"options": [
+			"The ship is atleast 120 metres long",
+			"The ship is atleast 150 metres long",
+			"The ship is atleast 50 metres long",
+			"The ship is atleast 60 metres long"
+		],
+	"explanation": "study rule 22 deeply and you would find the answer. Hint: look at sidelights. It has the least visibility range.",
+	"chapter": 3
+},{
+	"question": "Power driven vessels are obligated to exhibit 2 masthead lights, one port and starboard sidelights and one sternlight.",
+	"answer": "this is true for vessels longer than 50 metres",
+	"options": [
+			"this is absolutely true",
+			"this is absolutely false for vessels wider than 50 metres",
+			"this is true for vessels less than 50 metres in length",
+			"this is absolutely false"
+		],
+	"explanation": "see rule 23a",
+	"chapter": 3
+},{
+	"question": "What vessels are required to exhibit an all round flashing yellow lights?",
+	"answer": "an air-cushion vessel operating in a non-displacement mode",
+	"options": [
+			"an air-cushion vessel",
+			"a catamaran vessel",
+			"a catamaran vessel operating in a non-displacement mode",
+			"seaplanes when flying close to sea surface",
+			"WIG crafts when landing"
+		],
+	"explanation": "see rule 23b",
+	"chapter": 3
+},{
+	"question": "A WIG craft when taking off, landing in flight near the surface shall exhibit a high intensity _____",
+	"answer": "all-round flashing red light",
+	"options": [
+			"all-round flashing yellow light",
+			"all-round red light",
+			"flashing green light",
+			"alternating flashing red and green light",
+			"alternating flashing red and yellow light"
+		],
+	"explanation": "see rule 23c",
+	"chapter": 3
+},{
+	"question": "A power driven vessel of less than 7 metres in length whose X does not exceed Y may exhibit an all-round white light and shall, if practicable, also exhibit sidelights. What is X and Y?",
+	"answer": "maximum speed, 7 knots",
+	"options": [
+			"minimun speed, 7 knots",
+			"maximum length, 70 metres",
+			"minimun length, 7 metres",
+			"minimun gross tonnage, 140 GT"
+		],
+	"explanation": "see rule 23d(ii)",
+	"chapter": 3
+},{
+	"question": "The rule within the collision regulation that talks about 'Towing and Pushing' is _____?",
+	"answer": "rule 24",
+	"options": [
+			"rule 23",
+			"rule 22",
+			"rule 25",
+			"rule 28"
+		],
+	"explanation": "how about you check the options for this one?",
+	"chapter": 3
+}, //Another 15 questions entry made for chapter 3 :::TOTAL OF 20 CHAPTER 3 QUESTIONS IN THE SQL DATABASE AT THIS POINT
+
+{
+	"question": "You see a power-driven vessel of about 120 metres long exhibiting two masthead lights in a vertical line. Which of the following is true about the power-driven vessel?",
+	"answer": "she is towing",
+	"options": [
+			"she is not under command",
+			"she is restricted in her ability to manoeuvre",
+			"she is constrained in her draught",
+			"she is aground",
+			"she is engaged in fishing"
+		],
+	"explanation": "see rule 24a(1)",
+	"chapter": 3
+},{
+	"question": "When the length of the tow exceeds 200 metres, a power-driven towing vessel shall exhibit _____",
+	"answer": "a diamond shape where it can best be seen",
+	"options": [
+			"a diamond shape above the sternlight",
+			"a diamond shape below the sternlight",
+			"a triangle shape above the sternlight",
+			"a circle shape below the sternlight"
+		],
+	"explanation": "see rule 24a(5)",
+	"chapter": 3
+},{
+	"question": "When a pushing vessel and a vessel being pushed ahead are rigidly connected in a composite unit, they shall be regarded as _____",
+	"answer": "a power-driven vessel",
+	"options": [
+			"two power-driven vessels",
+			"a power-driven vessel and a sailing vessel",
+			"a vessel not under command",
+			"two constrained vessels",
+			"a power-driven vessel and a constrained vessel"
+		],
+	"explanation": "see rule 24b",
+	"chapter": 3
+},{
+	"question": "A sailing vessel less than 20 metres in length shall exhibit a sternlight, sidelights and may exhibit _____",
+	"answer": "one lantern near the top of the mast",
+	"options": [
+			"two masthead lights where it can be seen",
+			"three vertical masthead lights",
+			"two horizontal masthead lights",
+			"two lanterns at the top of the mast"
+		],
+	"explanation": "see rule 25b",
+	"chapter": 3
+},{
+	"question": "A vessel proceeding under sail when also being propelled by machinery shall exhibit forward where it can be best seen _____",
+	"answer": "a conical shape, apex downwards",
+	"options": [
+			"a conical shape, apex upwards",
+			"a pyrammid shape, apex downwards",
+			"a triangle shape, apex upwards",
+			"a pyrammid shape, apex downwards"
+		],
+	"explanation": "see rule 25e",
+	"chapter": 3
+},// for pard C i stopped at rule 26
+
+{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},

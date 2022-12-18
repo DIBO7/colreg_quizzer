@@ -1,0 +1,25 @@
+.enclosure{
+	display: flex;
+	flex-direction: column;
+	padding: 0 10px;
+	margin: 0;
+}
+
+.enclosure a{
+	text-decoration: none;
+	background: white;
+	color: var(--main-blue);
+	padding: 15px 0;
+	margin: 5px 0;
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 600;
+	width: 320px;
+	transition: .4s;
+}
+
+.enclosure a:hover, .enclosure a:focus{
+	background: var(--main-blue);
+	color: white;
+}
+

@@ -1,0 +1,213 @@
+.note{
+	background: rgba(0, 0, 0, .2);
+}
+
+.note h2{
+	margin: 0 0 0 10px;
+}
+
+.note p{
+	padding: 10px 10px;
+	text-align: justify;
+	line-height: 1.7rem;
+	margin: 0;
+	letter-spacing: .05rem;	
+}
+
+.note p a{
+	color: var(--heavy-blue);
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.enclosure{
+	display: flex;
+	flex-direction: column;
+	padding: 0 10px;
+	margin: 0;
+}
+
+.enclosure a{
+	text-decoration: none;
+	background: white;
+	color: var(--main-blue);
+	padding: 15px 0;
+	margin: 5px 0;
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 600;
+	width: 320px;
+	transition: .4s;
+}
+
+.enclosure a:hover, .enclosure a:focus{
+	background: var(--main-blue);
+	color: white;
+}
+
+h1{
+	text-align: center;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	margin: 3vh 0 15px;
+	font-style: oblique;
+}
+
+.wrapper{ /*This is to hold the question section and answer section under one controllable wrapper*/
+	margin: 6vh auto;
+	width: 75vw; /*on wide screens this seems okay*/	
+}
+
+.panel{
+	background: white;
+	width: calc(100% - 80px - 60px); 
+	/*the width incluedes the width of the ::after(40px) and ::before(40px) and the padding(30px each side)*/
+	margin: 0 auto;
+	padding: 30px;
+	position: relative;
+	border: 2px solid var(--bright-blue);
+	min-height: 100px;
+}
+
+.panel::before{
+	content: " ";
+	width: 40px;
+	height: 65%;
+	background: rgba(255, 255, 255, .9);
+	position: absolute;
+	left: -40px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+
+.panel::after{
+	content: " ";
+	width: 40px;
+	height: 65%;
+	background: rgba(255, 255, 255, .9);
+	position: absolute;
+	right: -40px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+
+.panel p{
+	color: var(--bright-blue);
+	font-size: 1.1rem;
+	letter-spacing: .2rem;
+	line-height: 2rem;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-weight: 700;
+}
+
+
+.sets{ /*this is where the container for the answer-choices*/
+	margin: 10vh 0;
+	display: flex; /**/
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.sets button, .sets .glass{
+	background: white;
+	color: var(--main-blue);
+	border: none;
+	padding: 2.5vh 0;
+	width: 37vw; /*the width of the wrapper is 75vw*/
+	min-width: 320px;
+	margin: 5px 0;
+	cursor: pointer;	
+	font-size: .9rem;
+	font-weight: 550;
+	letter-spacing: .2rem;
+	position: relative;
+	transition: .5s;
+}
+
+.sets .glass{
+	/*it may be better to just use .sets a{} instead*/
+	text-decoration: none;
+	text-align: center;
+}
+
+.sets button span, .sets .glass span{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 0%;
+	background: var(--main-blue);
+	transition: width .5s;
+}
+
+.sets button span.left, .sets .glass span.left{
+	left: 0;
+}
+
+.sets button span.right, .sets .glass span.right{
+	right: 0;
+}
+
+.sets button:hover, .sets button:focus, .sets .glass:hover, .sets .glass:focus{
+	color: white;
+	z-index: 3;
+}
+
+.sets button:hover span, .sets button:focus span, .sets .glass:hover span, .sets .glass:focus span{
+	width: 50%;
+	z-index: -1;
+}
+
+
+@media(max-width: 1023px){
+	.wrapper{
+		width: 80vw;
+	}
+	.panel{
+		
+	}
+
+	.panel::before{
+	}
+
+	.panel::after{
+	}
+
+	.panel p{
+		text-align: justify;
+	}
+
+}
+
+
+@media(max-width: 600px){
+	.wrapper{
+		width: 100vw;
+	}
+	.panel{
+		width: calc(100% - 50px);
+		padding: 15px 10px;
+		margin: 0 auto;
+	}
+	.panel p{
+		font-size: 1rem;
+		line-height: 1.8rem;
+		letter-spacing: .12rem;
+	}
+	.panel::before{
+		display: none;
+	}
+	.panel::after{
+		display: none;
+	}
+}
+
+@media(max-width: 320px){
+	button{
+		min-width: 98vw !important;
+	}
+}

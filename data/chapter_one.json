@@ -1,0 +1,93 @@
+{
+	"question": "According to Rule 3, non-displacement crafts are regarded as?",
+	"answer": "vessel",
+	"options": [
+			"power driven vessel",
+			"sailing vessel",
+			"restricted vessel",
+			"constrained vessel",
+			"working vessel"
+		],
+	"explanation": "Rule 3(a) defines the term vessel to include non-displacement crafts.",
+	"chapter": 1
+},{
+	"question": "Can a sailing vessel be fitted with propelling machinery and still be regarded (in accrodance to the provisions of the collison regulation) as 'a sailing vessel'?",
+	"answer": "Yes, as long as the propelling machinery is not being used",
+	"options": [
+			"No, a sailing vessel cannot be fitted with any propelling machinery",
+			"Yes, as long as there are sails on the vessel",
+			"No, the regulation ignores sailing vessels",
+			"No, there is another term used in the collision regulation"
+		],
+	"explanation": "Rule 3(c) specifically defines sailing vessels as vessels under sails provided that propelling machinery if fitted, are not used",
+	"chapter": 1
+},{
+	"question": "When is it appropriate to consider vessel not 'underway'?",
+	"answer": "When she is aground",
+	"options": [
+			"When she cannot propel herself",
+			"When she is being towed",
+			"When she is towing another vessel",
+			"When she is on a collision course"
+		],
+	"explanation": "see rule 3(i)",
+	"chapter": 1,
+},{
+	"question": "The word 'length' of a vessel mean?",
+	"answer": "The length overall",
+	"options": [
+			"the length at waterline",
+			"the length of the keel",
+			"the length at midships",
+			"the length of the main deck",
+			"any length specified"
+		],
+	"explanation": "see rule 3 (j)",
+	"chapter": 1,
+},{
+	"question": "Can governments make special rules with respect to additional lights and signals for ships of war?",
+	"answer": "Yes, as long as they cannot be mistaken for any signals authorised by the regulation",
+	"options": [
+			"No, the regulation does not permit that",
+			"Yes, the collision regulations have to conform to the government rules",
+			"Yes, the regulation lets governments do anything with their warships",
+			"No, the regulation made all provisions for ships of war"
+		],
+	"explanation": "see rule 1(c)",
+	"chapter": 1
+},{
+	"question": "Are coastal states or local authorities permitted to make special rules for roadsteads?",
+	"answer": "Yes, they are",
+	"options": [
+			"No, not at all",
+			"It depends on the size of the roadstead",
+			"It depends on the location of the roadstead",
+			"Yes they can, but ships may choose to ignore them"
+		],
+	"explanation": "see rule 1(b)",
+	"chapter": 1
+}, {
+	"question": "How is 'pilot' defined under rule 3",
+	"answer": "rule 3 did not define pilot",
+	"options": [
+			"a representative of the port authorities",
+			"a representative of the port state",
+			"a representative of the ship owner",
+			"a non-representative of the ship owner",
+			"a representative of flag state"
+		],
+	"explanation": "rule 3 defines some terms used in the collision regulation but 'pilot' is not one of them.",
+	"chapter": 1
+}
+
+
+{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+}
+/*This is the format */

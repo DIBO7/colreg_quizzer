@@ -1,0 +1,162 @@
+[
+	{
+		"question": "According to the collision regulations, what is any sound signalling appliance capable of producing the prescribed blasts called?",
+		"answer": "whistle",
+		"options": [
+				"horn",
+				"sound signalling systems",
+				"prescribed honk",
+				"sound manager"
+			],
+		"explanation": "see rule 32",
+		"chapter": 4
+	},{
+		"question": "A blast of about one second duration is called ....",
+		"answer": "a short blast",
+		"options": [
+				"a normal blast",
+				"a one-second blast",
+				"a minor blast",
+				"a quick blast"
+			],
+		"explanation": "see rule 32",
+		"chapter": 4
+	},{
+		"question": "Prolonged blasts have a duration of about X seconds. What is X?",
+		"answer": "4 - 6",
+		"options": [
+				"3 - 7",
+				"5 - 7",
+				"3 - 5",
+				"4 - 7",
+				"5 - 8"
+			],
+		"explanation": "see rule 32",
+		"chapter": 4
+	},{
+		"question": "What kind of vessels are not obligated to carry the prescribed sound signalling appliance?",
+		"answer": "a vessel less than 12 metres in length",
+		"options": [
+				"a vessel engaged in fishing",
+				"a working vessel",
+				"a military vessel",
+				"a vessel less than 7 metres in length"
+			],
+		"explanation": "see rule 33",
+		"chapter": 4
+	},{
+		"question": "A vessel of 100 metres or more, shall carry in addition to a whistle _____",
+		"answer": "a bell and a gong",
+		"options": [
+				"a gong",
+				"a bell",
+				"another whistle",
+				"two other whistles"
+			],
+		"explanation": "see rule 33",
+		"chapter": 4
+	},{
+		"question": "You happen to be in sight of another vessel, as a navigating officer of a power-driven vessel (underway), how would you signal the other vessel that you are operating astern propulsion?",
+		"answer": "sound 3 short blast",
+		"options": [
+				"sound 2 short blast, 1 prolonged blast",
+				"sound 1 short blast and 1 prolonged blast",
+				"sound 2 short blast",
+				"sound 3 prolonged blast"
+			],
+		"explanation": "see rule 34a",
+		"chapter": 4 
+	},
+	{
+		"question": "A vessel may supplement whistle signals with two flashes to indicate that own vessel is _____",
+		"answer": "altering course to port",
+		"options": [
+				"altering course to starboard",
+				"operating astern propulsion",
+				"not under command",
+				"aground"
+			],
+		"explanation": "see rule 34b",
+		"chapter": 4
+	},{
+		"question": "The duration of a light flash shall be X second(s), the interval between flashes shall be about Y second(s) and the interval between successive signals shall be not less than Z seconds. What is X, Y and Z?",
+		"answer": "1, 1, 10",
+		"options": [
+				"2, 1, 5",
+				"1, 2, 5",
+				"3, 2, 10",
+				"2, 5, 10",
+				"3, 1, 8"
+			],
+		"explanation": "see rule 34b",
+		"chapter": 4
+	},{
+		"question": "You are the navigating officer on duty. You are in sight of another vessel but due to some reason you fail to understand the intentions or actions of the other vessel. What are mandated to do?",
+		"answer": "give 5 short and rapid blasts on the whistle",
+		"options": [
+				"give 5 short and rapid white light flashes",
+				"give 3 rapid flashes and continuous blasts",
+				"give continuous flashing and continuous blasts",
+				"give 5 prolonged blasts and 5 rapid flashes"
+			],
+		"explanation": "see rule 34d. Be sure to not confuse what one SHALL DO with what one MAY DO.",
+		"chapter": 4
+	},{
+		"question": "As the officer of the watch, you are approaching an area of a narrow channel where vessels may be obscured by an intervening obstruction and you hear one prolonged blast. How are you mandated to respond?",
+		"answer": "with a prolonged blast",
+		"options": [
+				"with two prolonged blasts",
+				"with a prolonged blast and two short blast",
+				"with a prolonged blast and a short blast",
+				"with three short blasts"
+			],
+		"explanation": "see rule 34e",
+		"chapter": 4
+	},{
+		"question": "If whistles are fitted onn a vessel at X distance apart, one whistle only shall be used for giving manoeuvring and warning signals. What is X?",
+		"answer": "more than 100 metres",
+		"options": [
+				"more than 120 metres",
+				"more than 150 metres",
+				"more than 200 metres",
+				"more than 50 metres"
+			],
+		"explanation": "see rule 34(f)",
+		"chapter": 4
+	},{
+		"question": "Your vessel is in an area of restricted visibility, which of the following is the appropriate action to take at night as the competent officer of the watch on a power-driven vessel making way?",
+		"answer": "sound one prolonged blast at intervals of not more than 2 minutes",
+		"options": [
+				"sound two prolonged blast at intervals of not more than 2 minutes",
+				"sound three short blasts at intervals of not more than 60 seconds",
+				"sound two short blasts at intervals of not more than 30 seconds",
+				"sound one short blast every 20 seconds"
+			],
+		"explanation": "see rule 35a",
+		"chapter": 4
+	},{
+		"question": "One prolonged blasst followed by two short blasts are to be made by the following vessels in restricted visibility except ?",
+		"answer": "a vessel at anchor",
+		"options": [
+				"a vessel restricted in her aility to manoeuvre",
+				"a vessel engaged in fishing",
+				"a sailing vessel",
+				"a towing vessel",
+				"a vessel constrained by her draught"
+			],
+		"explanation": "see rule 35c",
+		"chapter": 4
+	},
+	{
+		"question": "From the provisions of the maritime collision regulation, a vessel may use light or sound signals that cannot be mistakeb for any authorised signal to _____(select the est option to fill the void)",
+		"answer": "attract the attention of another vessel",
+		"options": [
+				"indicate distress",
+				"indicate man overboard",
+				"indicate oil spillage",
+				"indicate loss of propulsion system"
+			],
+		"explanation": "see rule 36",
+		"chapter": 4
+	}
+]

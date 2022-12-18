@@ -1,0 +1,46 @@
+.meter{
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+}
+
+/*.meter .analog{*/
+.analog{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+	font-size: 1rem;
+	letter-spacing: .2rem;
+	font-weight: 600;
+	font-style: oblique;
+	color: white;
+}
+
+/*
+.meter .analog .var{
+
+}
+
+.meter .analog .value{
+	
+}
+*/
+
+/*.meter .reader{*/
+.reader{
+	height: 20px;
+	border: 1px solid white;
+	background: rgba(255, 255, 255, .5);
+	position: relative;
+}
+
+/*.meter .reader .answered{*/
+.answered{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background: var(--bright-blue);
+	/*width: 10%;*/
+	transition: width .9s;
+}

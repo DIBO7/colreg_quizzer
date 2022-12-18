@@ -1,0 +1,380 @@
+//8 questions here so far
+{
+	"question": "Which is not a factor to be considered when determining a safe speed",
+	"answer": "speed of own vessel over ground",
+	"options": [
+			"the state of visibility",
+			"traffic density",
+			"the presence of background light at night",
+			"the draught in relation to the available depth",
+			"limitations of the radar",
+			""
+		],
+	"explanation": "see rule 6",
+	"chapter": 2
+},{
+	"question": "According to the collision regulation, when shall a vessel proceed at safe speed?",
+	"answer": "at all times",
+	"options": [
+			"when the radar is down",
+			"when not keeping a look-out",
+			"in traffic-dense waters",
+			"in narrow channels",
+			"in shallow waters"
+		],
+	"explanation": "see rule 6",
+	"chapter": 2
+},{
+	"question": "If in doubt about the existence of a risk of collision, such risk shall _______",
+	"answer": "be deemed to exist",
+	"options": [
+			"be re-evaluated",
+			"be considered insignificant",
+			"be reported to the IMO",
+			"be reported to the flag state",
+			"be ignored"
+		],
+	"explanation": "see rule 7",
+	"chapter": 2
+},{
+	"question": "Complete the statement. 'Assumptions shall not be made on the basis of scanty information, _____'",
+	"answer": "especially scanty radar information",
+	"options": [
+			"especially scanty AIS information",
+			"especially scanty meteorological reports",
+			"such information shall be ignored",
+			"except scanty radar information",
+			"except scanty AIS information"
+		],
+	"explanation": "see rule 7 (c)",
+	"chapter": 2
+},{
+	"question": "An approaching tanker vessel has a bearing of 147 degrees. 12 minutes later, the tanker vessel has the same bearing. What does this mean?",
+	"answer": "a risk of collision exist",
+	"options": [
+			"the tanker is not underway",
+			"own vessel is underway",
+			"the tanker is proceeding at safe speed",
+			"the tanker is on a constant speed",
+			"own vessel is not underway"
+		],
+	"explanation": "see rule 7 (d)",
+	"chapter": 2
+},{
+	"question": "According to rule 8 of the regulations, actions taken to avoid collision shall be ",
+	"answer": "made in ample time",
+	"options": [
+			"executed immediately",
+			"made only with the captain on bridge",
+			"to slacken the speed of own vessel",
+			"to alter course immediately",
+			"made after a successful ship-to-ship communication"
+		],
+	"explanation": "see rule 8",
+	"chapter": 2
+},{
+	"question": "According to the regulations, what shall be large enough to be readily apparent?",
+	"answer": "actions to avoid collision",
+	"options": [
+			"look-out",
+			"safe speed",
+			"existence of risk of collision",
+			"traffic separation schemes",
+			"narrow channels"
+		],
+	"explanation": "see rule 9",
+	"chapter": 2
+},{
+	"question": "According to the provisions of the rules, can a vessel cross the narrow channel or fairway?",
+	"answer": "as long as it does not impede the passage of another",
+	"options": [
+			"no, no vessel can cross a narrow channel",
+			"as long as the vessel is less than 100 metres in length",
+			"depends on the laws of the flag states",
+			"depends on the laws if the port states",
+			"Yes, absolutely",
+			"only in cases of emergencies"
+		],
+	"explanation": "see rule 9(d)",
+	"chapter": 2
+},{
+	"question": "According to rule 9 of the collision regulations, a vessel in a narrow channel shall keep to her _____",
+	"answer": "starboard side",
+	"options": [
+			"portside",
+			"side specified by UNCLOS",
+			"windward side",
+			"leeward side",
+			"preffered side"
+		],
+	"explanation": "see rule 9 (a)",
+	"chapter": 2
+},{
+	"question": "What does the collision regulation say about anchoring in a narrow channel?",
+	"answer": "avoid it, if the circumstance of the case admit",
+	"options": [
+			"whatever the case may be, avoid it completely",
+			"anchor at your own risk",
+			"you would have to pay to anchor",
+			"stem the tide before anchoring",
+			"request permission from local authorities",
+			"only vessels less than 20 metres can anchore in narrow channels"			
+		],
+	"explanation": "see rule 9 (g)",
+	"chapter": 2
+},{
+	"question": "What does rule 10 cover?",
+	"answer": "Traffic Separation Schemes",
+	"options": [
+			"Narrow Channel",
+			"Look out",
+			"Safe Speed",
+			"Action to avoid collision",
+			"Sailing vessels"
+		],
+	"explanation": "Rule 10 talks about traffic separation schemes",
+	"chapter": 2
+}, {
+	"question": "According to the collision regulations, 'A vessel joining or leaving a traffic lane shall do so at an (X) angle to the general direction of traffic flow as practicable. What is X?'",
+	"answer": "small",
+	"options": [
+			"large",
+			"any",
+			"right",
+			"acute",
+			"obtuse",
+			"preferred",
+		],
+	"explanation": "see rule 10 (b) and it should not be confused with rule 10 (c)",
+	"chapter": 2
+}, {
+	"question": "What does the collision regulations say about crossing traffic lanes?",
+	"answer": "avoid it as far as practicable",
+	"options": [
+			"in no situation is it permitted",
+			"seek permission of the local authorities",
+			"avoid it if own vessel is less than 20 metres",
+			"avoid it if the visibility is not clear enough",
+			"avoid it if the sea is not calm",
+			"avoid it in traffic-dense waters"
+		],
+	"explanation": "see rule 10 (c)",
+	"chapter": 2
+}, {
+	"question": "According to the collision regulations, 'a vessel crossing traffic lanes, shall do so on a heading as practicable at (X) angles to the general direction of traffic flow'. WHat is X?",
+	"answer": "right",
+	"options": [
+			"small",
+			"large",
+			"any",
+			"acute",
+			"obtuse"
+		],
+	"explanation": "see rule 10 (c) and must not be confused with rule 10 (b)",
+	"chapter": 2
+}, {
+	"question": "Are vessels engaged in fishing permitted to use the inshore traffic zone?",
+	"answer": "Yes, they are",
+	"options": [
+			"No, they are not",
+			"If the circumstance permits",
+			"Only if she cannot safely use apprpriate traffic lanes",
+			"If she is more than 20 metres in length",
+			"The collision regulations is silent on this"
+		],
+	"explanation": "see rule 10 (d)",
+	"chapter": 2
+}, {
+	"question": "According to the collision regulations, when can a (non-crossing) vessel enter a separation zone?",
+	"answer": "in emergencies and when fishing",
+	"options": [
+			"in emergencies only",
+			"whenever she feels like",
+			"whenever the local authorities permit",
+			"whenever she wants to anchor",
+			"when the pilot is onboard"
+		],
+	"explanation": "see rule 10 (e)",
+	"chapter": 2
+}, {
+	"question": "What does the collision regulations say about sailing vessels following a traffic lane?",
+	"answer": "they should not impede the passage of power-driven vessels",
+	"options": [
+			"absolutely nothing",
+			"they shall not drop anchors",
+			"they are not permitted at all to do so",
+			"power-driven vessels must keep clear off them",
+			"they shall be considered as vessels not under command"
+		],
+	"explanation": "see rule 10 (j)",
+	"chapter": 2
+}, 
+//begining of Day 3 input -> 10 new input added to previous 17 entries
+{
+	"question": "Two vessels are approaching each other with the possibility of a collision. Sailing vessel A has the wind on her port side. Sailing vessel B has the wind on her starboard side. Which of the vessels, according to rule 12, is the give-way vessel?",
+	"answer": "Sailing vessel A because she has the wind on her port side",
+	"options": [
+			"Sailing Vessel B because she has the wind on her starboard side",
+			"Sailing vessel B because she is smaller",
+			"Sailing vessel A because she is larger",
+			"whichever ship that makes the sound signals first",
+			"they both have to communicate and decide"
+		],
+	"explanation": "see rule 12 (a)",
+	"chapter": 2
+}, {
+	"question": "How does rule 12 of the collision regulation explains the 'windward' side of a sailing ship?",
+	"answer": "side opposite to that on which the mainsail is carried",
+	"options": [
+			"side on which the main sail is carried",
+			"side adjacent to that which the mainsail is carried",
+			"portside of the fore-and-aft sail",
+			"starboard of the fore-and-aft sail"
+		],
+	"explanation": "see rule 12 (b)",
+	"chapter": 2
+}, {
+	"question": "According to the collision regulations, a vessel shall be deemed to be overtaking when comming up with another vessel from a direction more than (X) degrees abaft her beam. What is X?",
+	"answer": "22.5",
+	"options": [
+			"45",
+			"12.5",
+			"25",
+			"90",
+			"24.5",
+			"10 to 11"
+		],
+	"explanation": "see rule 13 (b)",
+	"chapter": 2
+}, {
+	"question": "A vessel in doubt as to whether she is overtaking another shall _____",
+	"answer": "assume she is and act accordingly",
+	"options": [
+			"shall assume she is not and act accordingly",
+			"shall asume she is but not act accordingly",
+			"shall assume to be a crossing vessel",
+			"shall slacken her speed until she is no longer in doubt",
+			"shall speed up until she is no longer in doubt",
+			"shall be detained by the port authorities"
+		],
+	"explanation": "see rule 13 (c)",
+	"chapter": 2
+}, {
+	"question": "When a container ship is overtaking a LNG carrier. It is the duty of _____ to keep clear off the other ship according to the collision regulations.",
+	"answer": "the container ship because she is overtaking the other",
+	"options": [
+			"the LNG carrier becuase she is the overtaken vessel",
+			"the LNG carrier because she is carrying flammable cargo",
+			"the container ship because she is larger",
+			"the LNG carrier because she is restricted in her ability to manoeuvre"
+		],
+	"explanation": "see rule 13 (d)",
+	"chapter": 2
+}, {
+	"question": "Two vessels on reciprocal or nearly reciprocal courses shall alter course and pass each other on what side?",
+	"answer": "the portside",
+	"options": [
+			"the starboard side",
+			"the aft side",
+			"the stern side",
+			"the windward side",
+			"the leeward side"
+		],
+	"explanation": "see rule 14 (a)",
+	"chapter": 2
+}, {
+	"question": "what lights would be seen at night when there is a risk of head-on or nearly head-on situation?",
+	"answer": "the mast head light",
+	"options": [
+			"one side light",
+			"no light",
+			"the superstructure light",
+			"the anchor light",
+			"the red mast light"
+		],
+	"explanation": "see rule 14 (b)",
+	"chapter": 2
+}, {
+	"question": "Your vessel which is a 16000 GT container vessel is in a crossing situation with a tanker ship with a certain risk of collision. Your own vessel can see the other vessel on your starboard. Which is the give way vessel?",
+	"answer": "own ship because you have the other on your starboard",
+	"options": [
+			"the tanker vessel becuase she is on your starboard side",
+			"the tanker vessel becuase she is smaller",
+			"own vessel because the tanker in restricted in her ability to manoeuvre",
+			"you would communicate with the other vessel and figure that out"
+		],
+	"explanation": "see rule 15",
+	"chapter": 2
+}, {
+	"question": "Action by the give-way vessel is the focus of rule _____.",
+	"answer": "16",
+	"options": [
+			"12",
+			"14",
+			"18",
+			"20",
+			"19"
+		],
+	"explanation": "rule 16 covers action by the give-way vessel",
+	"chapter": 2
+}, {
+	"question": "The collision regulation does not relieve the give-way vessel of her obligation to keep out of the way.",
+	"answer": "This is absolutely true",
+	"options": [
+			"This is absolutely false",
+			"This is true for vessels larger than 100 metres",
+			"This is false for training vessels",
+			"This is true for fishing vessels",
+			"This is false in restricted visibility"
+		],
+	"explanation": "see rule 17 (d)",
+	"chapter": 2
+},
+//end of day 3 input with 17 entries
+{
+	"question": "Considering the responsibility between vessels, which is supposed to keep-out of the way of another: a sailing vessel or a vessel engaged in fishing?",
+	"answer": "sailing vessel",
+	"options": [
+			"fishing vessel",
+			"the larger vessel",
+			"the vessel under command",
+			"the contrained vessel"
+		],
+	"explanation": "see rule 18b and 18c for clarification",
+	"chapter": 2
+},{
+	"question": "Are seaplanes required to comply with all the rules the maritime collision regulations when on water?",
+	"answer": "yes, where risk of collision exist",
+	"options": [
+			"no, they have their own rules",
+			"just the safe speed rule",
+			"yes, but they have no responsibility to other vessels",
+			"just the traffic separation schemes and look-out rules"
+		],
+	"explanation": "see rule 18(e)",
+	"chapter": 2
+},{
+	"question": "In restricted visibility, every vessel shall proceed at a safe speed. A power-driven vessel shall _____",
+	"answer": "have her engines ready for immediate manoeuvre",
+	"options": [
+			"have her engines dead slow ahead",
+			"have her sound signalling systems ready",
+			"have her light signalling systems ready",
+			"have her engines stopped",
+			"all accomodation lights turned on",
+			"all signalling systems ready"
+		],
+	"explanation": "see rule 19(b)",
+	"chapter": 2
+},
+//Day 4 - 8 new entry 5 of which are for the third chapter
+
+{
+	"question": "",
+	"answer": "",
+	"options": [
+			""
+		],
+	"explanation": "",
+	"chapter": 
+},

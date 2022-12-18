@@ -1,0 +1,6 @@
+.panel h3{
+	color: var(--heavy-blue);
+	margin: 0 0 5px 0;
+	font-size: .9rem;
+	letter-spacing: .12rem;
+}
