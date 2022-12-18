@@ -1,4 +1,4 @@
-{
+[{
 	"question": "According to Rule 3, non-displacement crafts are regarded as?",
 	"answer": "vessel",
 	"options": [
@@ -31,7 +31,7 @@
 			"When she is on a collision course"
 		],
 	"explanation": "see rule 3(i)",
-	"chapter": 1,
+	"chapter": 1
 },{
 	"question": "The word 'length' of a vessel mean?",
 	"answer": "The length overall",
@@ -43,7 +43,7 @@
 			"any length specified"
 		],
 	"explanation": "see rule 3 (j)",
-	"chapter": 1,
+	"chapter": 1
 },{
 	"question": "Can governments make special rules with respect to additional lights and signals for ships of war?",
 	"answer": "Yes, as long as they cannot be mistaken for any signals authorised by the regulation",
@@ -78,16 +78,4 @@
 		],
 	"explanation": "rule 3 defines some terms used in the collision regulation but 'pilot' is not one of them.",
 	"chapter": 1
-}
-
-
-{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-}
-/*This is the format */
+}]

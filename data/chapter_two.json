@@ -1,5 +1,4 @@
-//8 questions here so far
-{
+[{
 	"question": "Which is not a factor to be considered when determining a safe speed",
 	"answer": "speed of own vessel over ground",
 	"options": [
@@ -143,7 +142,7 @@
 			"right",
 			"acute",
 			"obtuse",
-			"preferred",
+			"preferred"
 		],
 	"explanation": "see rule 10 (b) and it should not be confused with rule 10 (c)",
 	"chapter": 2
@@ -208,9 +207,7 @@
 		],
 	"explanation": "see rule 10 (j)",
 	"chapter": 2
-}, 
-//begining of Day 3 input -> 10 new input added to previous 17 entries
-{
+},{
 	"question": "Two vessels are approaching each other with the possibility of a collision. Sailing vessel A has the wind on her port side. Sailing vessel B has the wind on her starboard side. Which of the vessels, according to rule 12, is the give-way vessel?",
 	"answer": "Sailing vessel A because she has the wind on her port side",
 	"options": [
@@ -329,9 +326,7 @@
 		],
 	"explanation": "see rule 17 (d)",
 	"chapter": 2
-},
-//end of day 3 input with 17 entries
-{
+},{
 	"question": "Considering the responsibility between vessels, which is supposed to keep-out of the way of another: a sailing vessel or a vessel engaged in fishing?",
 	"answer": "sailing vessel",
 	"options": [
@@ -366,15 +361,4 @@
 		],
 	"explanation": "see rule 19(b)",
 	"chapter": 2
-},
-//Day 4 - 8 new entry 5 of which are for the third chapter
-
-{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},
+}]

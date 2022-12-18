@@ -1,4 +1,4 @@
-{
+[{
 	"question": "The rules concerning lights shall be complied with _____",
 	"answer": "from sunset to sunrise",
 	"options": [
@@ -57,9 +57,7 @@
 		],
 	"explanation": "see rule 21b",
 	"chapter": 3
-},//Day 4 - 8 new entry 5 of which are for the third chapter
-
-{
+},{
 	"question": "The masthead light shows an unbroken white light over an arc of the horizon of X degrees. What is X?",
 	"answer": "225",
 	"options": [
@@ -232,9 +230,7 @@
 		],
 	"explanation": "how about you check the options for this one?",
 	"chapter": 3
-}, //Another 15 questions entry made for chapter 3 :::TOTAL OF 20 CHAPTER 3 QUESTIONS IN THE SQL DATABASE AT THIS POINT
-
-{
+}, {
 	"question": "You see a power-driven vessel of about 120 metres long exhibiting two masthead lights in a vertical line. Which of the following is true about the power-driven vessel?",
 	"answer": "she is towing",
 	"options": [
@@ -291,142 +287,4 @@
 		],
 	"explanation": "see rule 25e",
 	"chapter": 3
-},// for pard C i stopped at rule 26
-
-{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},{
-	"question": "",
-	"answer": "",
-	"options": [
-			""
-		],
-	"explanation": "",
-	"chapter": 
-},
+}]
