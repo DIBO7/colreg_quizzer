@@ -32,7 +32,7 @@ export default function handler(req, res) {
 
     let dataOBJ = getRespectiveChapters(queried_chapter_array)
 
-    res.status(200).json({ data: dataOBJ.length })
+    res.status(200).json({ data: dataOBJ })
   }else{
     res.status(405).json({'detail': "method not allowed"})
   }
