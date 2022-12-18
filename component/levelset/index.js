@@ -34,7 +34,7 @@ function SelectLevel({closer, selected, setSelected, enter}){
 		setTimeout(()=>{
 			content.current.classList.add("opened");
 		}, 50)
-	}, [])
+	}, []) 
 
 	return(
 		<section id="popup" ref={content} className={styles.popup}>
@@ -44,30 +44,30 @@ function SelectLevel({closer, selected, setSelected, enter}){
 
 				<h2>Pick the chapter(s) you want?</h2>
 
-				<div id="selectors" className={styles.selectors}>
-					<button onClick={()=>SELECT("A")} className={ selected.indexOf("A") !== -1 ? styles.selected : "" }> 
+				<div className={styles.selectors}>
+					<button > 
 						<span className={styles.left}> </span> General <span className={styles.right}> </span> 
 					</button>
 					
-					<button onClick={()=>SELECT("B")} className={ selected.indexOf("B") !== -1 ? styles.selected : "" }> 
+					<button > 
 						<span className={styles.left}> </span> Steering and Sailing Rules <span className={styles.right}> </span> 
 					</button>
 					
-					<button onClick={()=>SELECT("C")} className={ selected.indexOf("C") !== -1 ? styles.selected : "" }> 
+					<button > 
 						<span className={styles.left}> </span> Lights and Shapes <span className={styles.right}> </span> 
 					</button>
 					
-					<button onClick={()=>SELECT("D")} className={ selected.indexOf("D") !== -1 ? styles.selected : "" }> 
+					<button > 
 						<span className={styles.left}> </span> Sound and Lights <span className={styles.right}> </span> 
 					</button>
 					
 					{/*
 						
-						<button onClick={()=>SELECT("E")} className={ selected.indexOf("E") !== -1 ? styles.selected : "" }> 
+						<button > 
 							<span className={styles.left}> </span> Exemptions <span className={styles.right}> </span> 
 						</button>
 
-						<button onClick={()=>SELECT("F")} className={ selected.indexOf("F") !== -1 ? styles.selected : "" }> 
+						<button > 
 							<span className={styles.left}> </span> Verification Of Compliance <span className={styles.right}> </span> 
 						</button>
 

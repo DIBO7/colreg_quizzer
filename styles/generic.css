@@ -162,6 +162,10 @@ h1{
 	z-index: -1;
 }
 
+/*For Prompter component*/
+#popup.opened{
+	transform: scale(1);
+}
 
 @media(max-width: 1023px){
 	.wrapper{

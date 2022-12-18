@@ -11,13 +11,16 @@
 	pointer-events: all;
 }
 
+/*
 .popup.opened{
 	transform: scale(1);
 }
 
+/*
 .overlay{
 	
 }
+*/
 
 .display{
 	margin: 40vh auto 0;
@@ -39,20 +42,18 @@
 .selectors{
 	display: flex;
 	flex-direction: column;
-	/*max-height: 50vh; This might not be necessary after all	*/
-	padding: 10px 0;
 }
 
 .selectors button{
-	background: none;
+	background: white;
+	color: var(--main-blue);
 	border: none;
-	outline: none;
-	text-align: left;
-	padding: 10px 0 10px 30px;
-	font-size: .9rem;
-	cursor: pointer;
+	padding: 15px 0 15px 30px;
+	cursor: pointer;	
 	position: relative;
 	transition: .5s;
+	text-align: left;
+	margin: 2px 0;
 }
 
 .selectors button span{
@@ -60,8 +61,18 @@
 	top: 0;
 	height: 100%;
 	width: 0%;
-	background: var(--main-blue);
+	background-color: var(--main-blue);
 	transition: .5s;
+}
+
+.selectors button:hover span{
+	width: 50%;
+	z-index: -1;
+}
+
+.selectors button:hover{
+	color: white;
+	z-index: 99;
 }
 
 /*.selectors button span.left{*/
@@ -72,18 +83,6 @@
 /*.selectors button span.right{*/
 .right{
 	right: 0;
-}
-
-/*.selectors button.selected{*/
-.selected{
-	color: white;
-	z-index: 3;
-}
-
-/*.selectors button.selected span{*/
-.selected span{
-	width: 50%;
-	z-index: -1;
 }
 
 .action{
