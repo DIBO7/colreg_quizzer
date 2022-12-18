@@ -167,6 +167,7 @@ h1{
 	.wrapper{
 		width: 80vw;
 	}
+    /*
 	.panel{
 		
 	}
@@ -176,7 +177,7 @@ h1{
 
 	.panel::after{
 	}
-
+    */
 	.panel p{
 		text-align: justify;
 	}
