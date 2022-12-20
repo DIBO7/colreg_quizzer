@@ -70,7 +70,7 @@ export const getRespectiveChapters = (chapterArray, maxChapter=4) => {
         let opts = [a.answer, a.options[random4numbers[0] - 1], a.options[random4numbers[1]-1], a.options[random4numbers[2]-1]]
         //sort opts it randomly
         opts = shuffleArray(opts)
-        arrToUse.push({question: a.question, options:opts, sn: ind+1})
+        arrToUse.push({question: a.question, options:opts, correct_answer: a.answer, explanation: a.explanation, sn: ind+1, section: a.chapter})
     })
 
     return arrToUse

@@ -45,10 +45,10 @@ function Quiz({chapterList}){
 
 
 	useEffect(()=>{		
-		fetch(`/api/v1/quizes/?params=${chapterList.join("")}`)
+		fetch(`/api?chapters=${chapterList}`)
 		.then( response => response.json() )
 		.then( result => {
-			setQuestions(result)
+			setQuestions(result.data)
 			setLoading(false) 
 		} )
 		.catch( error => {
@@ -63,7 +63,7 @@ function Quiz({chapterList}){
 		{
 			inProgress && 
 			<React.Fragment>
-				<div className={styles.metre-holder}>
+				<div className={styles["metre-holder"]}>
 					<QuizMetre 
 						total = {questions.length}
 						questionAnswered = {position}
@@ -83,7 +83,7 @@ function Quiz({chapterList}){
 			<div className="sets">
 				
 				{
-					questions[position].choices.map((choice, index)=>{
+					questions[position].options.map((choice, index)=>{
 						return(
 							<button onClick={(e)=>setChosen(e.target.textContent)} key={index}> 
 								<span className="left"></span>{choice}<span className="right"></span> 

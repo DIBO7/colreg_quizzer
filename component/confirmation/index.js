@@ -1,5 +1,6 @@
 import React, {useEffect, useRef} from 'react';
-import styles from "./Index.module.css"
+import styles from "./Index.module.css";
+import extracss from "../../styles/Levelset.module.css";
 
 
 function SelectLevel({closer, responder}){
@@ -27,10 +28,10 @@ function SelectLevel({closer, responder}){
 	}, [])
 
 	return(
-		<section id="popup" ref={content} className={styles.popup}>
+		<section id="popup" ref={content} className={extracss.popup} >
 			<div id="overlay"></div>
 
-			<div id="display" className={styles.display}>
+			<div id="display" className={extracss.display}>
 
 				<p>Are you sure that's your final answer?</p>
 

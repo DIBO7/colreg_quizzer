@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 //import "./index.css";
 
 import Prompt from "../component/prompter";
-import Quiz from "../component/quizer";
+//import Quiz from "../component/quizer";
 
 
 function MainPage(){
