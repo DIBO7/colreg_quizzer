@@ -45,16 +45,19 @@ function Quiz({chapterList}){
 
 
 	useEffect(()=>{		
-		fetch(`/api?chapters=${chapterList}`)
-		.then( response => response.json() )
-		.then( result => {
-			setQuestions(result.data)
-			setLoading(false) 
-		} )
-		.catch( error => {
-			console.log(error)
-			alert("we are sorry, but an unexpected error occurred!")
-		} )
+		if(chapterList){
+
+			fetch(`/api?chapters=${chapterList}`)
+			.then( response => response.json() )
+			.then( result => {
+				setQuestions(result.data)
+				setLoading(false) 
+			} )
+			.catch( error => {
+				console.log(error)
+				alert("we are sorry, but an unexpected error occurred!")
+			} )
+		}
 	}, [chapterList])
 
 	return(

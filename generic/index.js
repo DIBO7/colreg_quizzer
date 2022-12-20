@@ -6,7 +6,7 @@ export const goTo = function(link) {
 }
 
 
-export const ADDRESS = "https://colreg.herokuapp.com";
+export const ADDRESS = "https://colreg.vercel.app";
 
 export const DESC = "How well do you know the Maritime Collision Regulations?"
 

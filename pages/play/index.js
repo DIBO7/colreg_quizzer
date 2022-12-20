@@ -2,19 +2,18 @@ import Quiz from "../../component/quizer";
 import { useRouter } from "next/router";
 
 
-function MainPage(){
+function MainPage(data){
 
-    const {route} = useRouter()
-    console.log(route)
+    const {query} = useRouter()  
 
 	return (
 		<>
 
-			<h1>How well do you know the Maritime Collision Regulations?</h1>
+			<h1>How well do you know the Maritime Collision Regulations? </h1>
 
 			{
 					<Quiz 
-						chapterList = {"1"}
+						chapterList = {query.chapters}
 					/>
 	
 			}
@@ -25,3 +24,9 @@ function MainPage(){
 }
 
 export default MainPage;
+/*
+export async function getServerSideProps(){
+
+	return {props: {data}}
+}
+*/
