@@ -4,7 +4,7 @@ import React, {useState} from "react";
 import SelectLevel from "../levelset";
 import Share from "../sharer";
 
-function Prompt({chapters, setChapters}){
+function Prompt({chapters, setChapters, beginGame}){
 
 	let [tell, setToTell] = useState(false) 
 	//when this is true the user clicked on "tell a friend" and is ready to share our websites with friends
@@ -43,7 +43,8 @@ function Prompt({chapters, setChapters}){
 				closer={()=>setPlay(false)}
 				selected = {chapters}
 				setSelected = {setChapters}
-			/>}
+				enter = {()=>beginGame()}
+				/>}
 
 		</section>
 

@@ -65,14 +65,19 @@
 	transition: .5s;
 }
 
-.selectors button:hover span{
+.selectors button:hover span, .selected span{
 	width: 50%;
 	z-index: -1;
 }
 
-.selectors button:hover{
+.selectors button:hover, .selected{
 	color: white;
 	z-index: 99;
+}
+
+.selected{
+	color: white!important;
+	background-color: var(--main-blue) !important;
 }
 
 /*.selectors button span.left{*/

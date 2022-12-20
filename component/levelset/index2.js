@@ -2,7 +2,7 @@ import React, {useEffect, useRef} from 'react';
 import styles from "../../styles/Levelset.module.css";
 
 
-function SelectLevel({closer, selected, setSelected}){
+function SelectLevel({closer, selected, setSelected, enter}){
 
 	//let [selected, setSelected] = useState([])
 	//an empty array to hold all the parts selected
@@ -10,9 +10,9 @@ function SelectLevel({closer, selected, setSelected}){
 
 	function SELECT(something){ //this is what would be used to select
 		if(selected.includes(something)){
-            setSelected(selected.replace(something, ""));
+			setSelected(selected.filter(thing=>thing !== something));
 		}else{
-            setSelected(selected + something)
+			setSelected([...selected, something])
 		}
 	}
 
@@ -26,7 +26,7 @@ function SelectLevel({closer, selected, setSelected}){
 	function startGame(){ //this function begins the game
 		closeWindow(); //but because of the animation to run smoothly we have to close the window first!
 		setTimeout(()=>{
-			window.location.assign(`/play?chapters=${selected}`)  //this calls the function that actually begins the game...
+			enter() //this calls the function that actually begins the game...
 		}, 400)		//setting timout to about 400 mili secods is necessary to let the page animation run smoothly
 	}
 
@@ -45,19 +45,19 @@ function SelectLevel({closer, selected, setSelected}){
 				<h2>Pick the chapter(s) you want?</h2>
 
 				<div className={styles.selectors}>
-					<button className={selected.includes("1") ? styles.selected : ""} onClick={()=>SELECT("1")}> 
+					<button > 
 						<span className={styles.left}> </span> General <span className={styles.right}> </span> 
 					</button>
 					
-					<button className={selected.includes("2") ? styles.selected : ""} onClick={()=>SELECT("2")}> 
+					<button > 
 						<span className={styles.left}> </span> Steering and Sailing Rules <span className={styles.right}> </span> 
 					</button>
 					
-					<button className={selected.includes("3") ? styles.selected : ""} onClick={()=>SELECT("3")}> 
+					<button > 
 						<span className={styles.left}> </span> Lights and Shapes <span className={styles.right}> </span> 
 					</button>
 					
-					<button className={selected.includes("4") ? styles.selected : ""} onClick={()=>SELECT("4")}> 
+					<button > 
 						<span className={styles.left}> </span> Sound and Lights <span className={styles.right}> </span> 
 					</button>
 					
