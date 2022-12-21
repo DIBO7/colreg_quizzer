@@ -14,7 +14,7 @@ function About(){
 					<h2> What ColReg Quiz is about </h2>
 
 					<p>
-						The International Regulations for Preventing Collisions at Sea (the COLREG or 'rules of the road') is a very important
+						The International Regulations for Preventing Collisions at Sea (the COLREG or rules of the road) is a very important
 						maritime document albeit a very lenghty one. The aim of the COLREG is to establish rules for collision-avoidance 
 						and safety at sea. Hence, navigating officers are required to assimilate the rules.										
 					</p>
@@ -22,7 +22,7 @@ function About(){
 					<p>
 						That is probably easier said than done. Without practising the actual contents of the regulations, you run the risk of forgetting
 						what you have read, just like every other human being (or worse, every other student!). You read some, forget some, relearn some
-						and ignore some. Its really messy to keep track of what you remember and don't.
+						and ignore some. Its really messy to keep track of what you remember and {"what you don't"}.
 					</p>
 
 					<p>

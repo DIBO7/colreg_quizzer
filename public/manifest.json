@@ -1,0 +1,37 @@
+{
+    "theme_color": "#018abd",
+    "background_color": "#dde8f0",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Maritime ColReg Quizzer",
+    "short_name": "Colreg Quizzer",
+    "description": "Take A Quick Random Quiz On The International Maritime Collision Regulations (Also known as Rules of the Roads).",
+    "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "32x32",
+          "type": "image/x-icon"
+        },
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
