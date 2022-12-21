@@ -12,4 +12,4 @@ module.exports = withPWA({
   skipWaiting: true,
 });
 
-module.exports = nextConfig
+//module.exports = nextConfig

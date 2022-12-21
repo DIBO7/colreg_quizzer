@@ -4,4 +4,4 @@ This PWA app is built originaly with ReactJS and Django. But due to heroku free 
 
 > It uses data from json File for now. (Future udates may consider using a SQlite database with prisma instead)
 
-> It is not optimized. It's just quickly edited *So proceed With Caution*
+> It is not optimized. It's just quickly rewritten logically to nextjs *So proceed With Caution*
