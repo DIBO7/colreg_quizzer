@@ -35,7 +35,7 @@ function About(){
 					<h2 id="maker"> Who Created This Quiz </h2>
 
 					<p>
-						This COLREG quiz app is created by <a target="_blank" href="https://www.ioweb.pro">Ibrahim Oduola</a>.
+						This COLREG quiz app is created by <a href="https://www.ioweb.pro">Ibrahim Oduola</a>.
 					</p>
 
 					<p>
@@ -47,7 +47,7 @@ function About(){
 					</p>
 
 					<p>
-						You can reach me via <a target="_blank" href="https://www.twitter.com/ioweb_pro/">my twitter (@ioweb_pro)</a> 
+						You can reach me via <a href="https://www.twitter.com/ioweb_pro/">my twitter (@ioweb_pro)</a> 
 					</p>
 
 			</section>
